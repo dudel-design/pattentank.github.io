@@ -1,6 +1,6 @@
 #banner  {
 
-background-image: image("/images/yarraValley.png");
+background-image: url('../images/yarraValley.png');
 background-repeat: no-repeat;
 background-size: cover;
 }
