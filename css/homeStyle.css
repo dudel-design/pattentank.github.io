@@ -1,6 +1,148 @@
+
+/*NOTE Color pallette:
+#FBCD4B Buttercup
+#A3A599 Silver plate
+#282623 dark
+#88A550 algae*/
+
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Dosis Regular'), local('Dosis-Regular'), url(https://fonts.gstatic.com/s/dosis/v7/HhyaU5sn9vOmLzloC_U.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0b.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+h1  {
+
+  font-weight: 400;
+  color: #a3a599;
+  font-family: "Open Sans";
+}
+
+h2  {
+  font-weight: 600;
+  color:#282623;
+  font-family: "dosis";
+}
+
+h3  {
+    font-weight: normal;
+    color: #88A550;
+    font-family: "Open Sans";
+}
+
+h4  {
+  font-weight: 600;
+  color: #333A56;
+  font-family: "dosis";
+
+}
+
+
+p  {
+  font-weight: normal;
+  font-family: "dosis";
+
+}
+
+
+body  {
+  margin: 0;
+
+  }
+
+  .navbar-default  {
+
+    background-color:#A3A599;
+    border-width: 0px;
+  }
+
+
 #banner  {
 
+padding: 100px;
 background-image: url('../images/yarraValley.png');
 background-repeat: no-repeat;
 background-size: cover;
+height: auto;
+width: 100%
+
+
+
+}
+
+#banner-words {
+
+  color:#88A550;
+  text-align: center;
+  padding-left: 0px;
+
+
+
+}
+
+.navbar-default .navbar-brand  {
+  color: #FBCD4B ;
+}
+
+
+.jumbotron-fluid  {
+  margin-bottom: 0;
+}
+
+
+
+
+ul.nav li a, ul.nav li a:visited {
+    color: #FBCD4B !important;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color: #FBCD4B !important;
+}
+
+ul.nav li.active a {
+    color: #88A550 !important;
+}
+
+
+
+body  {
+  background-image: url('../images/homeOffice.png');
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  width: 100%;
+  background-attachment: fixed;
+  background-position:center;
+}
+
+
+#myImage  {
+text-align: center;
+
+}
+
+.dark  {
+background-color: #282623 ;
+color: #88A550;
+font-size: 24px;
+padding: 50px;
+
+}
+
+.trans  {
+
+  background-color: none;
+  text-align: center;
+  color:#282623;
 }
