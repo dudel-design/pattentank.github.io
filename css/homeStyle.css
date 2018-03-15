@@ -136,7 +136,7 @@ text-align: center;
 background-color: #282623 ;
 color: #88A550;
 font-size: 24px;
-padding: 50px;
+padding: 30px;
 
 }
 
@@ -145,4 +145,38 @@ padding: 50px;
   background-color: none;
   text-align: center;
   color:#282623;
+  padding: 40px auto;
+}
+
+.butter  {
+background-color: #FBCD4B ;
+text-align: center;
+
+}
+
+.plate  {
+
+background-color:#A3A599;
+  padding: 40px auto;
+}
+
+#about  {
+
+margin-top: 30px;
+margin-bottom:30px;
+}
+
+#portfolio  {
+padding-bottom:60px;
+
+}
+
+.row .butter {
+
+  padding: 10px 10px;
+}
+
+#contact  {
+  text-align: center;
+
 }
