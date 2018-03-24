@@ -181,6 +181,18 @@ font-size: 20px;
 
 }
 
+#about .row h3  {
+  font-weight: bold;
+}
+
+
+#about .row p:hover  {
+
+  font-weight: bold;
+
+
+}
+
 .row .butter {
 
   padding: 10px 10px;
