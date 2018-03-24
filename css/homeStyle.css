@@ -51,6 +51,7 @@ p  {
   font-weight: normal;
   font-family: "dosis";
 
+
 }
 
 
@@ -103,14 +104,20 @@ width: 100%
 
 ul.nav li a, ul.nav li a:visited {
     color: #FBCD4B !important;
+    font-family: dosis;
+    font-size: 20px;
 }
 
 ul.nav li a:hover, ul.nav li a:active {
-    color: #FBCD4B !important;
+    color: #282623 !important;
+      font-family: dosis;
+      font-size: 20px;
 }
 
 ul.nav li.active a {
     color: #88A550 !important;
+      font-family: dosis;
+      font-size: 20px;
 }
 
 
@@ -146,6 +153,7 @@ padding: 30px;
   text-align: center;
   color:#282623;
   padding: 40px auto;
+  font-size: 20px;
 }
 
 .butter  {
@@ -158,6 +166,7 @@ text-align: center;
 
 background-color:#A3A599;
   padding: 40px auto;
+  color: #282623;
 }
 
 #about  {
@@ -168,6 +177,7 @@ margin-bottom:30px;
 
 #portfolio  {
 padding-bottom:60px;
+font-size: 20px;
 
 }
 
@@ -179,4 +189,15 @@ padding-bottom:60px;
 #contact  {
   text-align: center;
 
+}
+
+#contact a:link,
+#contact a:visited {
+  color:#88A550;
+
+}
+
+#contact a:hover {
+
+color: #FBCD4B;
 }
