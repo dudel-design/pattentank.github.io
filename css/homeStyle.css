@@ -213,3 +213,8 @@ font-size: 20px;
 
 color: #FBCD4B;
 }
+
+ul  {
+
+  list-style-type: none;
+}
