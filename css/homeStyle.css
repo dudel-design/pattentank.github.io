@@ -78,7 +78,7 @@ body  {
 #banner  {
 
 padding: 100px;
-background-image: url('../images/yarraValley.jxr');
+background-image: url('../images/yarraValley.png');
 background-repeat: no-repeat;
 background-size: cover;
 height: auto;
@@ -131,7 +131,7 @@ ul.nav li.active a {
 
 
 body  {
-  background-image: url('../images/homeOffice.jxr');
+  background-image: url('../images/homeOffice.png');
   background-color: transparent;
   background-repeat: no-repeat;
   background-size: cover;
